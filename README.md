@@ -48,7 +48,6 @@ Then, choose Key Pairs
 3. Choose Create Key Pair
 4. In the Create Key Pair window, for Key Pair name, type
 VPCE-Tutorial-KeyPair. Then, choose Create.
-Contact us: support@intellipaat.com / © Copyright Intellipaat / All rights reservedAWS Solutions Architect Training
 5. The private key file is automatically downloaded by your browser. Save it
 in a safe place. Amazon EC2 gives the file an extension of .pem
 6. (Optional) If you're using an SSH client on a Mac or Linux computer to
@@ -78,8 +77,6 @@ want them to.
 The stack for this tutorial includes the following resources:
 ● A VPC and the associated networking resources, including a subnet, a security
 group, an internet gateway, and a route table.
-Contact us: support@intellipaat.com / © Copyright Intellipaat / All rights reservedAWS Solutions Architect Training
-
 ● An Amazon EC2 instance that's launched into the subnet in the VPC.
 ● An Amazon SNS topic.
 ● Two AWS Lambda functions. These functions receive messages that are published
@@ -160,7 +157,6 @@ on the internet.
 To create the endpoint:
 1. Open the Amazon VPC console at https://console.aws.amazon.com/vpc/.
 2. In the navigation menu on the left, choose Endpoints.
-Contact us: support@intellipaat.com / © Copyright Intellipaat / All rights reservedAWS Solutions Architect Training
 3. Choose Create Endpoint.
 4. On the Create Endpoint page, for the Service category, keep the default
 choice of AWS services.
@@ -207,7 +203,6 @@ https://console.aws.amazon.com/lambda/.
 2. On the Functions page, choose VPCE-Tutorial-Lambda-1.
 3. Choose Monitoring.
 4. Check the Invocation count graph. This graph shows the number of times
-Contact us: support@intellipaat.com / © Copyright Intellipaat / All rights reservedAWS Solutions Architect Training
 that the Lambda function has been run.
 
 The invocation count matches the number of times you published a message to
